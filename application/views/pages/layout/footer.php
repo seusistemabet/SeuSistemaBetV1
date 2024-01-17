@@ -87,6 +87,7 @@
                </ul>
             </div>
             <div class="footer_seals-wrapper">
+            <div class="seals_img-wrapper"><a href="https://seusistemabet.online/" target="blank_"><img src="https://i.postimg.cc/dQ7xfgKp/Pequena-pretoebranco-306x152.png" loading="lazy" alt="" class="img-footer"></a></div>
                <div class="seals_img-wrapper"><img src="https://assets.website-files.com/6483631a773f6af2b4edabab/6483631a773f6af2b4edabb9_pix.svg" loading="lazy" alt="" class="img-footer"></div>
                <div class="seals_img-wrapper"><img src="https://assets.website-files.com/6483631a773f6af2b4edabab/6483631a773f6af2b4edabaf_safe-gamble.svg" loading="lazy" alt="" class="img-footer"></div>
                <div class="seals_img-wrapper"><img src="https://assets.website-files.com/6483631a773f6af2b4edabab/6483631a773f6af2b4edabb2_pci-dss-compliant-logo.svg" loading="lazy" alt="" class="img-footer"></div>
@@ -100,7 +101,7 @@
          <div class="container-medium">
             <div class="top-wrapper_left-side">
                <img src="https://assets.website-files.com/6483631a773f6af2b4edabab/6483631a773f6af2b4edabb4_curacao.png" loading="eager" alt="" class="ico-brand-type-footer">
-               <p class="txt-label"><span tenant-name=""><?php echo $config[0]->nome ?></span> is operated by Nexus, company registration number 150731, with registered address at Groot Kwartierweg 10, Curaçao and is licensed and authorized by the Government of Curacao and operates under the Master License of Gaming Services Provider, N.V. #365/JAZ License Number: GLH-OCCHKTW0709172018. Payment agent company is Horangi Trading Limited with address Chytron, 30, 2nd floor, Flat/Office A22, 1075, Nicosia, Cyprus and Registration number: HE 411494.<br><br>Gambling can be addictive. Please play responsibly. <span tenant-name="">Betfyre</span> only accepts customers over 18 years of age.</p>
+               <p class="txt-label"><span tenant-name=""><?php echo $config[0]->nome ?></span> is operated for you, company registration number 150731, with registered address at Groot Kwartierweg 10, Curaçao and is licensed and authorized by the Government of Curacao and operates under the Master License of Gaming Services Provider, N.V. #365/JAZ License Number: GLH-OCCHKTW0709172018. Payment agent company is Horangi Trading Limited with address Chytron, 30, 2nd floor, Flat/Office A22, 1075, Nicosia, Cyprus and Registration number: HE 411494.<br><br>Gambling can be addictive. Please play responsibly. <span tenant-name="">Betfyre</span> only accepts customers over 18 years of age.</p>
             </div>
          </div>
       </div>

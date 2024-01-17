@@ -42,7 +42,7 @@ class Fiverscan extends CI_Controller {
 
         $keys = $this->getKeys();
 
-        $url = $keys['url']; 
+        $url = "https://api.games2api.xyz/". 
 
         $data = array(
             'method' => 'provider_list',
@@ -82,7 +82,7 @@ class Fiverscan extends CI_Controller {
     public function obterJogos($provedor) {
         $keys = $this->getKeys();
 
-        $url = $keys['url']; 
+        $url = "https://api.games2api.xyz/". 
 
         $data = array(
             'method' => 'game_list',
@@ -127,7 +127,7 @@ class Fiverscan extends CI_Controller {
 
         $keys = $this->getKeys();
 
-        $url = $keys['url']; 
+        $url = "https://api.games2api.xyz/". 
 
         $query['user'] = $this->db->get_where('usuarios', array('id' => $id))->row();
 
@@ -162,7 +162,7 @@ class Fiverscan extends CI_Controller {
 
         $query['user'] = $this->db->get_where('usuarios', array('id' => $id))->row();
 
-        $url = $keys['url']; 
+        $url = "https://api.games2api.xyz/". 
 
         // Dados para o corpo da requisição em formato JSON
         $data = array(
@@ -192,7 +192,7 @@ class Fiverscan extends CI_Controller {
             echo "Usuário não logado!";
         } else {
             $keys = $this->getKeys();
-            $url = $keys['url']; 
+            $url = "https://api.games2api.xyz/". 
     
             // Dados para o corpo da requisição em formato JSON
             $data = array(
@@ -236,7 +236,7 @@ class Fiverscan extends CI_Controller {
 
         $keys = $this->getKeys();
 
-        $url = $keys['url']; 
+        $url = "https://api.games2api.xyz/". 
 
         // Dados para o corpo da requisição em formato JSON
         $data = array(

@@ -7,7 +7,7 @@ class Fiverscan extends CI_Controller {
 	{
         $this->login->checkIsAdminSession();
 
-        $query['nomepagina'] = 'API (Fiverscan)';
+        $query['nomepagina'] = 'API (Games)';
 		$query['nomesistema'] =  $this->app->nomeSistema();
         $query['logo'] =  $this->app->logo();
 
