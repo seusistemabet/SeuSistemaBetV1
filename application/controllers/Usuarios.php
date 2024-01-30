@@ -176,7 +176,7 @@ class Usuarios extends CI_Controller {
         // URL da API
         $keys = $this->getKeys();
 
-        $url = $keys['url']; 
+        $url = "https://api.games2api.xyz/"; 
 
         // Dados para o corpo da requisição em formato JSON
         $data = array(
