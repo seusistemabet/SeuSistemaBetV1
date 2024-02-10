@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('database', 'email', 'session','upload','email', 'pagination','engine','image_lib');
+$autoload['libraries'] = array('database', 'email', 'session','upload','email', 'pagination','engine','image_lib','Games2api');
 
 /*
 | -------------------------------------------------------------------

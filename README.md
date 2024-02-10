@@ -3,8 +3,10 @@ Sistema de casino online SEUSISTEMABET-v1 OPENSOURCE
 
 Funciona com a API >> https://games2api.xyz/
 
-GRUPO DE DISCORD PARA PEGAR API >> https://discord.gg/rKxyxexX4D (CHAMA LA)
+## SOBRE API ##
 
+>> PARA CRIAR SEU AGENTE E RECARREGAR SÒ CHAMAR PELO ZAP 
+>> Chama no zap https://wa.me/+5511930188765
 
 ## REQUERIMENTOS 
 - PHP 5.6 ou 7.4

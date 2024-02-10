@@ -1,13 +1,13 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Fiverscan extends CI_Controller {
+class GamesAPI extends CI_Controller {
 
 	public function index()
 	{
         $this->login->checkIsAdminSession();
-
-        $query['nomepagina'] = 'API (Games)';
+        $this->app->checkHaveWithdrawal();
+        $query['nomepagina'] = 'API';
 		$query['nomesistema'] =  $this->app->nomeSistema();
         $query['logo'] =  $this->app->logo();
 
@@ -16,7 +16,7 @@ class Fiverscan extends CI_Controller {
 		$query['config'] =  $this->db->get('fiverscan')->result();
 
         $this->load->view('pages/layout/header', $query);
-        $this->load->view('pages/outros/fiverscan', $query);
+        $this->load->view('pages/outros/gamesapi', $query);
         $this->load->view('pages/layout/footer', $query);
 	}
     public function save()
@@ -32,6 +32,24 @@ class Fiverscan extends CI_Controller {
         $this->session->set_flashdata('msg', $msg);
         $this->session->set_flashdata('tipo', "success");
 
-        redirect('Fiverscan');
+        redirect('GamesAPI');
 	}
+    public function sync(){
+        $this->app->syncAPI();
+
+        $msg = "A API foi sincronizada com sucesso!";
+        $this->session->set_flashdata('msg', $msg);
+        $this->session->set_flashdata('tipo', "success");
+
+        redirect('GamesAPI');
+    }
+    public function syncUsers(){
+        $this->app->syncUsersAPI();
+
+        $msg = "A API foi sincronizada com sucesso!";
+        $this->session->set_flashdata('msg', $msg);
+        $this->session->set_flashdata('tipo', "success");
+
+        redirect('GamesAPI');
+    }
 }
